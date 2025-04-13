@@ -65,14 +65,12 @@ solana config set --url https://bitz-000.eclipserpc.xyz/
 ```
 solana-keygen new
 ```
-Press ENTER and save the passphrase
+ *  Press ENTER and save the passphrase.Copy your “Private Key” somewhere and then import it to Backpack Wallet. Deposit 0.005+ ETH to your wallet on Eclipse to enable mining to the wallet address you created.
 
 Exporting PrivateKey from ID.json
 ```
 cat ~/.config/solana/id.json
 ```
-* Copy your “Private Key” somewhere and then import it to Backpack Wallet. Deposit 0.005+ ETH to your wallet on Eclipse to enable mining to the wallet address you created.
-
 ## Install Bitz CLI
 ```
 cargo install bitz
