@@ -71,8 +71,7 @@ Exporting PrivateKey from ID.json
 ```
 cat ~/.config/solana/id.json
 ```
-* Copy the output (a list of numbers) and import it into Backpack Wallet under “Private Key”.
-* Fund the wallet with 0.005+ ETH on Eclipse to activate mining.
+* Copy your “Private Key” somewhere and then import it to Backpack Wallet. Deposit 0.005+ ETH to your wallet on Eclipse to enable mining to the wallet address you created.
 
 ## Install Bitz CLI
 ```
