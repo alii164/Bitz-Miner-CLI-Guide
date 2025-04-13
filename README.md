@@ -88,10 +88,12 @@ screen -S bitz
 ```
 bitz collect
 ```
-* Default CPU utilized is 1 core, You can set the CPU cores for your Bitz miner. Stop the node with Ctrl+C, then replace your 4 with your system cores and enter the following command:
+* The default CPU is 1. You can set the CPU cores for your Bitz miner to suit your device. For example, for 20 CPU;
+first stop the node with Ctrl+C, then
+enter the following command:
 ## Using Multiple core
 ```
-bitz collect --cores 4
+bitz collect --cores 20
 ```
 
 ## Basic Commands
